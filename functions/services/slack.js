@@ -23,6 +23,11 @@ class Slack {
                             "short": true
                         },
                         {
+                            "title": "url",
+                            "value": event.url,
+                            "short": true
+                        },
+                        {
                             "title": "description",
                             "value": event.description,
                             "short": true
